@@ -1,0 +1,10 @@
+#!/bin/sh
+
+umask 022
+
+autocutsel -fork &
+autocutsel -selection PRIMARY -fork &
+
+xrdb -merge "${HOME}/.Xresources"
+dex -a -e Awesome
+wmname LG3D

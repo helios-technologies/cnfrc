@@ -1,0 +1,16 @@
+[color]
+	branch = auto
+	diff = auto
+	interactive = auto
+	status = auto
+[core]
+	editor = vim
+[alias]
+	st = status
+	br = branch
+	co = checkout
+	ci = commit
+	df = diff
+  pl = log --graph --decorate --pretty=oneline --abbrev-commit
+[push]
+	default = simple
