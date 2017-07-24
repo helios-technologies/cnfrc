@@ -6,7 +6,7 @@ if ! [ -d "$HOME/.cnfrc" ]; then
   git clone https://github.com/helios-technologies/cnfrc.git .cnfrc
 fi
 
-LIST="xprofile Xresources gitconfig zshrc"
+LIST="xprofile Xresources gitconfig zshrc zshrc.local"
 
 for file in $LIST
 do
